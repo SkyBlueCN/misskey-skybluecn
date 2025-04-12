@@ -63,19 +63,19 @@ const headerTabs = computed(() => {
 		icon: 'ti ti-icons',
 	});
 
-	if (instance.federation !== 'none') {
-		items.push({
-			key: 'federation',
-			title: i18n.ts.federation,
-			icon: 'ti ti-whirl',
-		});
-	}
+	//if (instance.federation !== 'none') {
+	//	items.push({
+	//		key: 'federation',
+	//		title: i18n.ts.federation,
+	//		icon: 'ti ti-whirl',
+	//	});
+	//}
 
-	items.push({
-		key: 'charts',
-		title: i18n.ts.charts,
-		icon: 'ti ti-chart-line',
-	});
+	//items.push({
+	//	key: 'charts',
+	//	title: i18n.ts.charts,
+	//	icon: 'ti ti-chart-line',
+	//});
 
 	return items;
 });
