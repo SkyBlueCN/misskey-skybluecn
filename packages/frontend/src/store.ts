@@ -183,6 +183,7 @@ export const store = markRaw(new Pizzax('base', {
 			'clips',
 			'drive',
 			'followRequests',
+			'pages',
 			'-',
 			'explore',
 			'announcements',
