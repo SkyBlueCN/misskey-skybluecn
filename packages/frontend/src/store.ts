@@ -180,15 +180,15 @@ export const store = markRaw(new Pizzax('base', {
 		where: 'deviceAccount',
 		default: [
 			'notifications',
-			'clips',
-			'drive',
 			'followRequests',
+			'pages',
+			'-',
+			'drive',
+			'clips',
+			'favorites'
 			'-',
 			'explore',
 			'announcements',
-			'search',
-			'-',
-			'ui',
 		],
 	},
 	statusbars: {
