@@ -156,11 +156,11 @@ export function openInstanceMenu(ev: MouseEvent) {
 		});
 	}
 
-	menuItems.push({
-		type: 'link',
-		text: i18n.ts.aboutMisskey,
-		to: '/about-misskey',
-	});
+//	menuItems.push({
+//		type: 'link',
+//		text: i18n.ts.aboutMisskey,
+//		to: '/about-misskey',
+//	});
 
 	os.popupMenu(menuItems, ev.currentTarget ?? ev.target, {
 		align: 'left',
